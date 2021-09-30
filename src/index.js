@@ -1,5 +1,4 @@
-function helloWorld() {
-    console.log('Hello world')
-}
+import HelloWorldButton from './hello-world.js';
 
-helloWorld()
+const helloWorldButton = new HelloWorldButton();
+helloWorldButton.render();
